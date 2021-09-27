@@ -29,9 +29,9 @@ int main()
 	{
 		-0.5f,-0.5f * float(sqrt(3)) / 3, 0.0f, //Lower left vertex
 		0.5f, -0.5f * float(sqrt(3)) / 3, 0.0f, // Lower right vertex
-		0.0f, 0.5f * float(sqrt(3)) * 2 / 3, 0.0f, // Center upper vertex
-		float(-0.5 / 2), -0.5f * float(sqrt(3)) / 6, 0.0f, // Middle left vertex
-		float(0.5 / 2), -0.5f * float(sqrt(3)) / 6, 0.0f, // Middle right vertex
+		0.0f, 0.5f * float(sqrt(3))  / 3, 0.0f, // Center upper vertex
+		float(-0.5 / 2), 0.0f, 0.0f, // Middle left vertex
+		float(0.5 / 2), 0.0f, 0.0f, // Middle right vertex
 		0.0f, -0.5f * float(sqrt(3)) / 3, 0.0f,		//Lower middle vertex
 		
 
